@@ -3,10 +3,6 @@ class Person
     @name = name
     @job
   end
-
-  def name
-    @name
-  end
 end
 
 john smith = Person.new("John Smith")
