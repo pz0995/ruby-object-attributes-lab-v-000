@@ -9,7 +9,11 @@ class Dog
     @name
   end
 
-  def job
+  def name=(new_name)
+      @name = new_name
+  end
+
+  def breed
 
   end
 end
