@@ -14,7 +14,7 @@ class Dog
   end
 
   def breed
-
+    @breed = "dalmation"
   end
 end
 
