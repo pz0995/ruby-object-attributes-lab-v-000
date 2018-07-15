@@ -1,22 +1,22 @@
 class Person
 
   def initialize(name)
-    @john_smith = John Smith
-  end
-
-  def name = ("john_smith")
-    @name
+    @name = name
   end
 
   def name
-  "#{@John Smith}".strip
-end
+    @name
+  end
+
+  def name=(new_name)
+      @name = new_name
+  end
 
   def job
-      @name = "mailman"
+      @name
   end
 end
 
-john_smith = Person.new("John Smith")
+Person.new("John Smith")
 john_smith.name
 john_smith.job = "mailman"
