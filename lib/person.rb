@@ -17,6 +17,6 @@ class Person
   end
 end
 
-John Smith = Person.new
+john_smith = Person.new
 john_smith.name = "John Smith"
 john_smith.job = "mailman"
